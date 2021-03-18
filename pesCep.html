@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Minha página</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="C:\Users\edeni\Desktop\cursos vit\BOOTCAMP\bootstrap.css">
+    <!--CSS LOCAL-->
+    <link rel="stylesheet" href="CEP.css">
+    <!--JQUERY-->
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <!--JAVA SCRIPT LOCAL-->
+    <script type="text/javascript" src="new.js"></script>
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+</head>  
+<body>
+    <!--CONTAINER INICIO-->
+    <div class="container text-center">
+        <h1>INFORME SEU CEP</h1>
+        <!--INPUT DO CEP-->
+        <input class="form-control" type="text" id="CEPent">
+        <button class="btn btn-light" type="button" onclick="pesqCep()">Pesquisar</button>
+        <!--INICIO DA LISTA-->
+        <div class="div1">
+            <ul class="text-left">
+                <li>CEP:<h3 id="cep"></h3>
+                </li>
+                <li>Bairro:<h3 id="bairro"></h3>
+                </li>
+                <li>Logradouro:<h3 id="rua"></h3>
+                </li>
+                <li>Cidade:<h3 id="cidade"></h3>
+                </li>
+                <li>Estado:<h3 id="estado"></h3>
+                </li>
+                <li>DDD:<h3 id="ddd"></h3>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+   
+    
+</body> 
+</html>
