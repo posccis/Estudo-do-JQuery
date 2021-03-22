@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFD166;
+}
+
+.container{
+    background-color: #FFFCF9;
+    border-radius: 9px;
+    margin-top: 5%;
+    width: 50%;
+    height: 600px;
+   
+}
+.form-control {
+    width: 50%;
+    margin-left: 0%;
+    display: inline;
+}
+
+.btn {
+    border-style: none;
+    background-color: #FFD166;
+}
+
+.tabela{
+    
+    height: 400px;
+    overflow: auto;
+
+}
+
+hr {
+    height: 0.1rem;
+    background-color: black;
+    width: 80%;
+
+}
